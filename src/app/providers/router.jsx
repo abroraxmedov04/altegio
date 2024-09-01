@@ -4,7 +4,7 @@ import AboutPage from "../../pages/about/AboutPage";
 import NotFoundPage from "../../pages/notfound/NotFoundPage";
 import MainWrapper from "../../global/MainWrapper";
 
-export const router = createBrowserRouter(
+const router = createBrowserRouter(
   MainWrapper([
     {
       path: "/",
@@ -20,3 +20,5 @@ export const router = createBrowserRouter(
     },
   ])
 );
+
+export default router;

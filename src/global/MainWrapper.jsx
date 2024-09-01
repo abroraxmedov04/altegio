@@ -9,7 +9,7 @@ const MainWrapper = (routes) => {
       <div className="flex flex-col min-h-screen">
         <ScrollRestoration />
         <Header />
-        <main className="flex-[100%]  flex flex-col">{route.element}</main>
+        <main className="flex-[100%]  flex flex-col mt-20">{route.element}</main>
         <Footer />
       </div>
     ),
